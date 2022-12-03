@@ -1,0 +1,74 @@
+body {
+  background-color:#EDEFEB;
+  font-family: "Open Sans", verdana, arial, sans-serif;
+}
+
+.side_bar {
+  height: 100%;
+  width: 14%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #0A0A27;
+  padding-left: 1%;
+  padding-right: 1%;
+  color:rgb(7, 7, 7);
+}
+
+.main {
+  font-size: 15px; 
+  padding: 0px 10px;
+  padding-left: 16%;
+  color:#363535;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0A0A27;
+  padding-left: -1%;
+}
+
+h1 {
+  font-family: verdana;
+}
+
+h3 {
+  margin-block-start:0.3em;
+  font-size: smaller;
+}
+
+
+.text{
+  margin: 10px;
+  padding: 25px;
+  align-self: center;
+}
+
+.row{
+  display: flex;
+}
+
+
+.box {
+  border-radius: 10px;
+  background-color: #F9F9F8;
+  margin: 10px;
+  padding: 25px;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+
+/* Scrollbars */
+*::-webkit-scrollbar {
+  width: 12px;               
+}
+*::-webkit-scrollbar-track {
+  background: #EDEFEB;        
+}
+*::-webkit-scrollbar-thumb {
+  background-color:#6495ED;    
+  border-radius: 20px;      
+  border: 3px solid #EDEFEB;  
+}
